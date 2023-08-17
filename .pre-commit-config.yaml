@@ -1,0 +1,33 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      # Trims trailing white spaces
+      - id: trailing-whitespace
+      # Make line endings consistent
+      - id: mixed-line-ending
+      # Ensure that every file ends with a newline
+      - id: end-of-file-fixer
+      # Check for unresolved merge conflicts
+      - id: check-merge-conflict
+      # Detect file names that could cause conflicts on case-insensitive file
+      # systems.
+      - id: check-case-conflict
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.2.0
+    hooks:
+      - id: mypy
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.0.264
+    hooks:
+      - id: ruff
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black
+        args: [--check, --diff]
+  - repo: https://github.com/pycqa/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: [--check, --diff]
