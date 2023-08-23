@@ -19,6 +19,7 @@
   * [Pre-Commit Hooks](#pre-commit-hooks)
   * [Debugger](#debugger)
 * [License](#license)
+* [Citation](#citation)
 
 <!-- vim-markdown-toc -->
 
@@ -343,6 +344,24 @@ Should your editor not support DAP (e.g. PyCharm doesn't and probably won't ever
 
 The code and models are released under the [MIT License](LICENSE.md) and the ground truth annotation data is licensed
 under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Citation
+
+If you find our work helpful for your research, please consider citing the following BibTeX entry.
+
+```bibtex
+@inproceedings{jungo2023characterqueries,
+  author={Jungo, Michael and Wolf, Beat and Maksai, Andrii and Musat, Claudiu and Fischer, Andreas},
+  title={Character Queries: A Transformer-Based Approach to On-line Handwritten Character Segmentation},
+  doi={10.1007/978-3-031-41676-7_6},
+  booktitle={Document Analysis and Recognition - ICDAR 2023},
+  editor={Fink, Gernot A. and Jain, Rajiv and Kise, Koichi and Zanibbi, Richard},
+  year={2023},
+  publisher={Springer Nature Switzerland},
+  pages={98--114},
+  isbn={978-3-031-41676-7}
+}
+```
 
 [dap]: https://microsoft.github.io/debug-adapter-protocol/
 [gt]: https://drive.switch.ch/index.php/s/qAfBtb1P05heJWZ

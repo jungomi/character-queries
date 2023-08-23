@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+repository-code: "https://github.com/jungomi/character-queries"
+title: "Character Queries: A Transformer-Based Approach to On-line Handwritten Character Segmentation"
+authors:
+  - given-names: Michael
+    family-names: Jungo
+    email: michael.jungo@hefr.ch
+  - given-names: Beat
+    family-names: Wolf
+    email: beat.wolf@hefr.ch
+  - given-names: Andrii
+    family-names: Maksai
+    email: amaksai@google.com
+  - given-names: Claudiu
+    family-names: Musat
+    email: cmusat@google.com
+  - given-names: Andreas
+    family-names: Fischer
+    email: andreas.fischer@hefr.ch
+preferred-citation:
+  type: conference-paper
+  title: "Character Queries: A Transformer-Based Approach to On-line Handwritten Character Segmentation"
+  authors:
+    - given-names: Michael
+      family-names: Jungo
+      email: michael.jungo@hefr.ch
+    - given-names: Beat
+      family-names: Wolf
+      email: beat.wolf@hefr.ch
+    - given-names: Andrii
+      family-names: Maksai
+      email: amaksai@google.com
+    - given-names: Claudiu
+      family-names: Musat
+      email: cmusat@google.com
+    - given-names: Andreas
+      family-names: Fischer
+      email: andreas.fischer@hefr.ch
+  doi: 10.1007/978-3-031-41676-7_6
+  volume-title: Document Analysis and Recognition - ICDAR 2023
+  year: 2023
+  publisher:
+    name: Springer Nature Switzerland
+  pages: 98--114
+  isbn: 978-3-031-41676-7
+  keywords:
+    - On-Line Handwriting
+    - Digital Ink
+    - Character Segmentation
+    - Transformer
