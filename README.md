@@ -1,5 +1,9 @@
 # Character Queries: A Transformer-based Approach to On-Line Handwritten Character Segmentation
 
+[![arXiv badge][arxiv-badge]][arxiv]
+[![DOI badge][doi-badge]][doi]
+[![Python][actions-python-badge]][actions-python-link]
+
 ![Model Overview](https://user-images.githubusercontent.com/3986846/235125728-2446a968-25c6-49f2-9f26-4ae0da4a02f2.png)
 
 ## Table of Contents
@@ -363,7 +367,13 @@ If you find our work helpful for your research, please consider citing the follo
 }
 ```
 
+[actions-python-badge]: https://github.com/jungomi/character-queries/actions/workflows/python.yml/badge.svg
+[actions-python-link]: https://github.com/jungomi/character-queries/actions/workflows/python.yml
+[arxiv]: https://arxiv.org/abs/2309.03072
+[arxiv-badge]: https://img.shields.io/badge/arXiv-2309.03072-b31b1b.svg
 [dap]: https://microsoft.github.io/debug-adapter-protocol/
+[doi]: https://doi.org/10.1007/978-3-031-41676-7_6
+[doi-badge]: https://zenodo.org/badge/DOI/10.1007/978-3-031-41676-7_6.svg
 [gt]: https://drive.switch.ch/index.php/s/qAfBtb1P05heJWZ
 [iam-gt-test-f]: https://drive.switch.ch/index.php/s/4fx1EY4fqEdJbss/download
 [iam-gt-test-t]: https://drive.switch.ch/index.php/s/eDOyjldldL17ev9/download
