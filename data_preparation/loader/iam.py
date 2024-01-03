@@ -29,21 +29,21 @@ def load_strokes(file: Union[str, IO[bytes]]) -> Drawing:
         for point in stroke.iter("Point"):
             points.append(
                 Point(
-                    int(point.get("x")),
-                    int(point.get("y")),
-                    stroke_index,
-                    len(points),
-                    float(point.get("time")),
+                    x=int(point.get("x")),
+                    y=int(point.get("y")),
+                    index=len(points),
+                    stroke=stroke_index,
+                    time=float(point.get("time")),
                 )
             )
 
         strokes.append(
             Stroke(
-                points,
-                stroke_index,
-                stroke.get("colour"),
-                float(stroke.get("start_time")),
-                float(stroke.get("end_time")),
+                points=points,
+                index=stroke_index,
+                color=stroke.get("colour"),
+                start_time=float(stroke.get("start_time")),
+                end_time=float(stroke.get("end_time")),
             )
         )
 
