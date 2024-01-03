@@ -31,7 +31,7 @@
 
 Download the model checkpoints:
 
-| Model                                                | #params | IAM Test Set F | IAM Test Set F | VNOnDB Test Set |
+| Model                                                | #params | IAM Test Set T | IAM Test Set F | VNOnDB Test Set |
 |------------------------------------------------------|---------|----------------|----------------|-----------------|
 | [Character Query Transformer][model-character-query] | 6.47M   | 92.28          | 95.11          | 92.06           |
 
